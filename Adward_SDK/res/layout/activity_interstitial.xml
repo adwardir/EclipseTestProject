@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context=".InterstitialActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="480dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+    <ImageButton
+        android:id="@+id/bt_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignTop="@+id/imageView"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/bt_close"/>
+
+</RelativeLayout>

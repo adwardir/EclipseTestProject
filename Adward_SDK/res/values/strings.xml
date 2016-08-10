@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Adward</string>
+    <string name="title_activity_show_video">ShowVideoActivity</string>
+</resources>

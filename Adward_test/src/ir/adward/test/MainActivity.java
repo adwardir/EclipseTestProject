@@ -40,7 +40,7 @@ public class MainActivity extends Activity
             @Override
             public void onClick(View v)
             {
-            	Adward.getInstance().showVideoAd(activity);
+            	Adward.getInstance().showInterstitialAd(activity);
             }
         });
 	}
